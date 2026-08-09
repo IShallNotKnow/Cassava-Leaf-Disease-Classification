@@ -1,7 +1,8 @@
 import os
-import torch
+
 from torch.utils.data import Dataset
 from torchvision.io import decode_image
+
 
 class LeafDataset(Dataset):
     def __init__(self, dataframe, img_dir, transform=None, target_transform=None):

@@ -2,12 +2,12 @@
 __pycache__/
 *.py[codz]
 *$py.class
+.gradio/
 
 .DS_Store
 .idea/Cassava-Leaf-Disease-Classification.im
 .idea/inspectionProfiles/profiles_settings.xml
 .idea/inspectionProfiles/Project_Default.xml
-.idea/
 
 # C extensions
 *.so
@@ -80,9 +80,10 @@ ipython_config.py
 # Environments
 .env
 .envrc
-CassavaLeafDiseaseCNN/.venv
+EffNet_Results/.venv
 env/
 venv/
+.venv/
 ENV/
 env.bak/
 venv.bak/
@@ -118,6 +119,7 @@ cython_debug/
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/
 
 
 # Github Copilot persisted session migrations, see: https://github.com/microsoft/copilot-intellij-feedback/issues/712#issuecomment-3322062215
